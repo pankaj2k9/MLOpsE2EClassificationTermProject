@@ -193,7 +193,8 @@ If S3 upload fails:
 
 ## 📊 MLOps Pipeline (Flow)
 
-``` A[Data Ingestion] --> B[Data Transformation]
+```
+    A[Data Ingestion] --> B[Data Transformation]
     B --> C[Model Training]
     C --> D[Model Evaluation]
     D --> E[Model Storage (AWS S3)]
