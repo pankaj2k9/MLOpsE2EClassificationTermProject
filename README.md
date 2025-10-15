@@ -193,9 +193,7 @@ If S3 upload fails:
 
 ## 📊 MLOps Pipeline (Flow)
 
-```mermaid
-flowchart TD
-    A[Data Ingestion] --> B[Data Transformation]
+``` A[Data Ingestion] --> B[Data Transformation]
     B --> C[Model Training]
     C --> D[Model Evaluation]
     D --> E[Model Storage (AWS S3)]
@@ -240,7 +238,8 @@ python-multipart
 
 ## 👨‍💻 Author
 
-**Pankaj Kumar Pramanik**
-Data, AI & MLOps Engineer
+**Pankaj Kumar Pramanik**  
+Data, AI & MLOps Engineer  
 🌐 [pankajpramanik.com](https://pankajpramanik.com)
+
 
