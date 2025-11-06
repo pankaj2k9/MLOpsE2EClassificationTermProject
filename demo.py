@@ -1,3 +1,5 @@
-from us_visa.logger import logging
+from us_visa.pipeline.training_pipeline import TrainingPipeline
 
-logging.info("Starting the US Visa Approval Prediction Demo...")
+pipeline = TrainingPipeline()
+
+pipeline.run_pipeline()
