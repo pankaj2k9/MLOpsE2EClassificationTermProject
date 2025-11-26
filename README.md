@@ -168,8 +168,8 @@ Create a `.env` file in the root directory:
 ```
 AWS_ACCESS_KEY_ID=<your_aws_key>
 AWS_SECRET_ACCESS_KEY=<your_secret_key>
-MONGO_DB_URL=<your_mongo_connection_string>
-BUCKET_NAME=mlops-visa-models
+mongodb_cluster_uri=<your_mongo_connection_string>
+BUCKET_NAME=usvisabucket-mlpos
 ```
 
 ---
@@ -239,8 +239,8 @@ python-multipart
 
 ## 👨‍💻 Author
 
-**Pankaj Kumar Pramanik**  
-Data, AI & MLOps Engineer  
+**Pankaj Kumar Pramanik**
+Data, AI & MLOps Engineer
 🌐 [pankajpramanik.com](https://pankajpramanik.com)
 
 
