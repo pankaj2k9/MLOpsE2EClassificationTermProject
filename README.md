@@ -168,8 +168,10 @@ Create a `.env` file in the root directory:
 ```
 AWS_ACCESS_KEY_ID=<your_aws_key>
 AWS_SECRET_ACCESS_KEY=<your_secret_key>
-mongodb_cluster_uri=<your_mongo_connection_string>
-BUCKET_NAME=usvisabucket-mlpos
+MONGODB_CLUSTER_URI=<your_mongo_connection_string>
+BUCKET_NAME=<your_s3_bucket_name>
+AWS_DEFAULT_REGION=<your_aws_region>
+ECR_REPO=<your_ecr_url>
 ```
 
 ---
