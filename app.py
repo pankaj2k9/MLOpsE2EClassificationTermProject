@@ -73,17 +73,17 @@ async def index(request: Request):
 
 
 
-@app.get("/train")
-async def trainRouteClient():
-    try:
-        train_pipeline = TrainingPipeline()
+# @app.get("/train")
+# async def trainRouteClient():
+#     try:
+#         train_pipeline = TrainingPipeline()
 
-        train_pipeline.run_pipeline()
+#         train_pipeline.run_pipeline()
 
-        return Response("Training successful !!")
+#         return Response("Training successful !!")
 
-    except Exception as e:
-        return Response(f"Error Occurred! {e}")
+#     except Exception as e:
+#         return Response(f"Error Occurred! {e}")
 
 
 

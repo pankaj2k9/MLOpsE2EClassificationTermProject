@@ -3,6 +3,12 @@
 This project implements a complete **MLOps pipeline** for a **U.S. Visa Approval Classification System**, covering all essential components — from **data ingestion** to **deployment and monitoring**.
 The goal is to predict whether a visa application will be approved or denied, using machine learning and production-grade MLOps tools.
 
+🌍 Live URL
+
+🔗 http://44.203.207.140:8080/
+
+The application is deployed on AWS EC2 using Docker containers, with the image stored and pulled directly from AWS Elastic Container Registry (ECR) through an automated GitHub Actions CI/CD pipeline.
+
 ---
 
 ## 📘 Overview
