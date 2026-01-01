@@ -97,7 +97,7 @@ class ModelEvaluation:
 
         Output      :   Returns model evaluation artifact
         On Failure  :   Write an exception log and then raise an exception
-        """  
+        """
         try:
             evaluate_model_response = self.evaluate_model()
             s3_model_path = self.model_eval_config.s3_model_key_path
